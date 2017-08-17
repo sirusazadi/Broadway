@@ -1,6 +1,12 @@
 html {
   text-align: center;
   font-family: Helvetica, sans-serif;
+  list-style: none;
+  }
+
+h1, h2 {
+    font-weight: bold;
+    color: white;
   }
 
 .hero {
@@ -9,11 +15,21 @@ html {
 
 .hero h1 {
   font-size: 70px;
-  font-weight: bold;
+}
+.hero h2 {
+  font-size: 23px;
+}
+a {
+  font-size: 18px;
   color: white;
 }
 
-.main-nav li a {
-  font-size: 18px;
+.footer {
+  background-color: dimgray;
+  text-align: left;
+}
+.footer p {
+  display: inline-block;
+  font-size: 11px;
   color: white;
 }
